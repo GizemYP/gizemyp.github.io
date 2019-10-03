@@ -1,1 +1,0 @@
-# gizemyp.github.io
