@@ -8,11 +8,13 @@
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Latitude</a>
+    <a class="navbar-brand" href="index.html">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,17 +27,17 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Max Temperature</a>
-            <a class="dropdown-item" href="#">Humidity</a>
-            <a class="dropdown-item" href="#">Cloudiness</a>
-            <a class="dropdown-item" href="#">Wind Speed</a>
+            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a>
+            <a class="nav-link" href="comparison.html">Comparison</a>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
+            <a class="nav-link" href="weather_data.html">Data</a>
         </li>
        
       </ul>
@@ -48,7 +50,7 @@
                  <div class="box">
                     <h1>Summary: Latitude vs. X</h1>
                     <hr>
-                    <img src="../Resources/assets/images/Fig1.png" alt="..." class="float-left">
+                    <img src="Resources/assets/images/Fig1.png" alt="..." class="float-left">
                     <p>The purpose of this projeect was to analyzee how weather changes as you get closer to the equator. To accomplish this analysis, we first pulleed data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</br></br>
                      After assembling the dataset, we used Matplotlib  to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as exeplanations and descriptions of any trends and correlations witnessed.
                  </p>
@@ -60,10 +62,11 @@
             <div class="box">
                 <h1>Visuals</h1>
                 <hr>
-                <img  src="../Resources/assets/images/Fig1.png" alt="chart" width=49%>
-                <img  src="../Resources/assets/images/Fig2.png" alt="chart" width=49%>
-                <img  src="../Resources/assets/images/Fig3.png" alt="chart" width=49%>
-                <img  src="../Resources/assets/images/Fig4.png" alt="chart" width=49%>
+                
+                <a href="comparison.html"><img  src="Resources/assets/images/Fig1.png" alt="chart" width=49%></a>
+                <img  src="Resources/assets/images/Fig2.png" alt="chart" width=49%>
+                <img  src="Resources/assets/images/Fig3.png" alt="chart" width=49%>
+                <img  src="Resources/assets/images/Fig4.png" alt="chart" width=49%>
             </div>  
         </div>
                              

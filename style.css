@@ -19,7 +19,14 @@ body { background: lightgray !important; }
 }
 
 h1{
-  color: rgb(1, 175, 175)
+  color: rgb(1, 175, 175);
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: bold;
+}
+
+h4{
+  color: rgb(1, 175, 175);
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 .float-left {
